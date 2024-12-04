@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScriptQuiz</title>
+    <link rel="stylesheet" href="js.css">
+    <link rel="icon" type="image/x-icon" href="images/capitals.ico">
+</head>
+<body>
+    <div class="container">
+        <h1>JS QUIZ</h1>
+        <div id="quizContainer">
+            <p id="question"></p>
+            <div id="options">
+                <button class="option-btn" onclick="checkAnswer(0)"></button>
+                <button class="option-btn" onclick="checkAnswer(1)"></button>
+                <button class="option-btn" onclick="checkAnswer(2)"></button>
+                <button class="option-btn" onclick="checkAnswer(3)"></button>
+            </div>
+        </div>
+        <div id="resultContainer">
+            <p id="result"></p>
+            <button id="nextBtn" onclick="loadNextQuestion()">Next</button>
+        </div>
+    </div>
+    <a href="options.html"><button id="home">back home</button></a>
+    <script src="js.js"></script>
+</body>
+</html>
