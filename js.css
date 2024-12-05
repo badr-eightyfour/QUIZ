@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('/images/lig.jpg');
+    background-image: url('lig.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -28,7 +28,7 @@ body {
     font-family: "Exo 2", sans-serif;
     box-shadow: 10px 10px 20px #111,
     -10px -10px 20px rgb(170, 170, 50);
-    background-image: url(/images/lig.jpg);
+    background-image: url(lig.jpg);
     background-size: cover;
 }
 
